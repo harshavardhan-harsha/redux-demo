@@ -19,6 +19,7 @@ const App = props => {
 const mapStateToProps = state => ({
   user: state
 });
+
 export default connect(
   mapStateToProps,
   { setAge, setName }
